@@ -1,0 +1,764 @@
+fileFormatVersion: 2
+guid: 869b55d2e571e734080cb2bc7e2bd552
+timeCreated: 1519895356
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Abdomen
+    100002: Abdomen_C
+    100004: Abdommen_IK
+    100006: Body
+    100008: body
+    100010: Body_C
+    100012: chest
+    100014: Controler
+    100016: head
+    100018: head 1
+    100020: Head_C
+    100022: ikHandle1
+    100024: ikHandle10
+    100026: ikHandle11
+    100028: ikHandle2
+    100030: ikHandle3
+    100032: ikHandle4
+    100034: ikHandle5
+    100036: ikHandle6
+    100038: ikHandle7
+    100040: ikHandle8
+    100042: ikHandle9
+    100044: joint10
+    100046: joint10 1
+    100048: joint11
+    100050: joint11 1
+    100052: joint12
+    100054: joint12 1
+    100056: joint14
+    100058: joint14 1
+    100060: joint15
+    100062: joint15 1
+    100064: joint16
+    100066: joint16 1
+    100068: joint17
+    100070: joint17 1
+    100072: joint18
+    100074: joint18 1
+    100076: joint2
+    100078: joint2 1
+    100080: joint20
+    100082: joint20 1
+    100084: joint21
+    100086: joint21 1
+    100088: joint22
+    100090: joint22 1
+    100092: joint23
+    100094: joint23 1
+    100096: joint24
+    100098: joint24 1
+    100100: joint26
+    100102: joint26 1
+    100104: joint27
+    100106: joint27 1
+    100108: joint28
+    100110: joint28 1
+    100112: joint29
+    100114: joint29 1
+    100116: joint3
+    100118: joint3 1
+    100120: joint4
+    100122: joint4 1
+    100124: joint5
+    100126: joint5 1
+    100128: joint6
+    100130: joint6 1
+    100132: joint8
+    100134: joint8 1
+    100136: joint9
+    100138: joint9 1
+    100140: L_1_Foot_IK
+    100142: L_1_Leg
+    100144: L_1_Leg 1
+    100146: L_1_Leg 2
+    100148: L_1_Leg_C
+    100150: L_1_Leg_C_
+    100152: L_1_Root_IK
+    100154: L_2_Foot_IK
+    100156: L_2_Leg
+    100158: L_2_Leg 1
+    100160: L_2_Leg 2
+    100162: L_2_Leg_C
+    100164: L_2_Leg_C_
+    100166: L_2_Root_IK
+    100168: L_3_Foot_IK
+    100170: L_3_Leg
+    100172: L_3_Leg 1
+    100174: L_3_Leg 2
+    100176: L_3_Leg_C
+    100178: L_3_Leg_C_
+    100180: L_3_Root_IK
+    100182: L_4_Foot_IK
+    100184: L_4_Leg
+    100186: L_4_Leg 1
+    100188: L_4_Leg 2
+    100190: L_4_Leg_C
+    100192: L_4_Leg_C_
+    100194: L_4_Root_IK
+    100196: L_5_Foot_IK
+    100198: L_5_Leg
+    100200: L_5_Leg 1
+    100202: L_5_Leg 2
+    100204: L_5_Leg_C
+    100206: L_5_Leg_C_
+    100208: L_5_Root_IK
+    100210: L_Leg
+    100212: leg_1
+    100214: leg_1 1
+    100216: leg_1 2
+    100218: leg_1 3
+    100220: leg_1 4
+    100222: leg_1 5
+    100224: leg_1 6
+    100226: leg_1 7
+    100228: leg_1 8
+    100230: leg_1 9
+    100232: leg_2
+    100234: leg_2 1
+    100236: leg_2 2
+    100238: leg_2 3
+    100240: leg_2 4
+    100242: leg_2 5
+    100244: leg_2 6
+    100246: leg_2 7
+    100248: leg_2 8
+    100250: leg_2 9
+    100252: leg_3
+    100254: leg_3 1
+    100256: leg_3 2
+    100258: leg_3 3
+    100260: leg_3 4
+    100262: leg_3 5
+    100264: leg_3 6
+    100266: leg_3 7
+    100268: leg_3 8
+    100270: leg_3 9
+    100272: leg_4
+    100274: leg_4 1
+    100276: leg_4 2
+    100278: leg_4 3
+    100280: leg_4 4
+    100282: leg_4 5
+    100284: leg_4 6
+    100286: leg_4 7
+    100288: leg_4 8
+    100290: leg_4 9
+    100292: leg_5
+    100294: leg_5 1
+    100296: leg_5 2
+    100298: leg_5 3
+    100300: leg_5 4
+    100302: leg_5 5
+    100304: leg_5 6
+    100306: leg_5 7
+    100308: Leg_C
+    100310: R_1_Foot_IK
+    100312: R_1_Leg
+    100314: R_1_Leg_C
+    100316: R_1_Leg_C_
+    100318: R_1_Root_IK
+    100320: R_2_Foot_IK
+    100322: R_2_Leg
+    100324: R_2_Leg_C
+    100326: R_2_Leg_C_
+    100328: R_2_Root_IK
+    100330: R_3_Foot_IK
+    100332: R_3_Leg
+    100334: R_3_Leg_C
+    100336: R_3_Leg_C_
+    100338: R_3_Root_IK
+    100340: R_4_Foot_IK
+    100342: R_4_Leg
+    100344: R_4_Leg_C
+    100346: R_4_Leg_C_
+    100348: R_4_Root_IK
+    100350: R_5_Foot_IK
+    100352: R_5_Leg
+    100354: R_5_Leg_C
+    100356: R_5_Leg_C_
+    100358: R_5_Root_IK
+    100360: R_Leg
+    100362: //RootNode
+    100364: Spider
+    100366: tail
+    100368: top
+    100370: transform1
+    100372: transform2
+    100374: transform3
+    100376: transform4
+    100378: transform5
+    400000: Abdomen
+    400002: Abdomen_C
+    400004: Abdommen_IK
+    400006: Body
+    400008: body
+    400010: Body_C
+    400012: chest
+    400014: Controler
+    400016: head
+    400018: head 1
+    400020: Head_C
+    400022: ikHandle1
+    400024: ikHandle10
+    400026: ikHandle11
+    400028: ikHandle2
+    400030: ikHandle3
+    400032: ikHandle4
+    400034: ikHandle5
+    400036: ikHandle6
+    400038: ikHandle7
+    400040: ikHandle8
+    400042: ikHandle9
+    400044: joint10
+    400046: joint10 1
+    400048: joint11
+    400050: joint11 1
+    400052: joint12
+    400054: joint12 1
+    400056: joint14
+    400058: joint14 1
+    400060: joint15
+    400062: joint15 1
+    400064: joint16
+    400066: joint16 1
+    400068: joint17
+    400070: joint17 1
+    400072: joint18
+    400074: joint18 1
+    400076: joint2
+    400078: joint2 1
+    400080: joint20
+    400082: joint20 1
+    400084: joint21
+    400086: joint21 1
+    400088: joint22
+    400090: joint22 1
+    400092: joint23
+    400094: joint23 1
+    400096: joint24
+    400098: joint24 1
+    400100: joint26
+    400102: joint26 1
+    400104: joint27
+    400106: joint27 1
+    400108: joint28
+    400110: joint28 1
+    400112: joint29
+    400114: joint29 1
+    400116: joint3
+    400118: joint3 1
+    400120: joint4
+    400122: joint4 1
+    400124: joint5
+    400126: joint5 1
+    400128: joint6
+    400130: joint6 1
+    400132: joint8
+    400134: joint8 1
+    400136: joint9
+    400138: joint9 1
+    400140: L_1_Foot_IK
+    400142: L_1_Leg
+    400144: L_1_Leg 1
+    400146: L_1_Leg 2
+    400148: L_1_Leg_C
+    400150: L_1_Leg_C_
+    400152: L_1_Root_IK
+    400154: L_2_Foot_IK
+    400156: L_2_Leg
+    400158: L_2_Leg 1
+    400160: L_2_Leg 2
+    400162: L_2_Leg_C
+    400164: L_2_Leg_C_
+    400166: L_2_Root_IK
+    400168: L_3_Foot_IK
+    400170: L_3_Leg
+    400172: L_3_Leg 1
+    400174: L_3_Leg 2
+    400176: L_3_Leg_C
+    400178: L_3_Leg_C_
+    400180: L_3_Root_IK
+    400182: L_4_Foot_IK
+    400184: L_4_Leg
+    400186: L_4_Leg 1
+    400188: L_4_Leg 2
+    400190: L_4_Leg_C
+    400192: L_4_Leg_C_
+    400194: L_4_Root_IK
+    400196: L_5_Foot_IK
+    400198: L_5_Leg
+    400200: L_5_Leg 1
+    400202: L_5_Leg 2
+    400204: L_5_Leg_C
+    400206: L_5_Leg_C_
+    400208: L_5_Root_IK
+    400210: L_Leg
+    400212: leg_1
+    400214: leg_1 1
+    400216: leg_1 2
+    400218: leg_1 3
+    400220: leg_1 4
+    400222: leg_1 5
+    400224: leg_1 6
+    400226: leg_1 7
+    400228: leg_1 8
+    400230: leg_1 9
+    400232: leg_2
+    400234: leg_2 1
+    400236: leg_2 2
+    400238: leg_2 3
+    400240: leg_2 4
+    400242: leg_2 5
+    400244: leg_2 6
+    400246: leg_2 7
+    400248: leg_2 8
+    400250: leg_2 9
+    400252: leg_3
+    400254: leg_3 1
+    400256: leg_3 2
+    400258: leg_3 3
+    400260: leg_3 4
+    400262: leg_3 5
+    400264: leg_3 6
+    400266: leg_3 7
+    400268: leg_3 8
+    400270: leg_3 9
+    400272: leg_4
+    400274: leg_4 1
+    400276: leg_4 2
+    400278: leg_4 3
+    400280: leg_4 4
+    400282: leg_4 5
+    400284: leg_4 6
+    400286: leg_4 7
+    400288: leg_4 8
+    400290: leg_4 9
+    400292: leg_5
+    400294: leg_5 1
+    400296: leg_5 2
+    400298: leg_5 3
+    400300: leg_5 4
+    400302: leg_5 5
+    400304: leg_5 6
+    400306: leg_5 7
+    400308: Leg_C
+    400310: R_1_Foot_IK
+    400312: R_1_Leg
+    400314: R_1_Leg_C
+    400316: R_1_Leg_C_
+    400318: R_1_Root_IK
+    400320: R_2_Foot_IK
+    400322: R_2_Leg
+    400324: R_2_Leg_C
+    400326: R_2_Leg_C_
+    400328: R_2_Root_IK
+    400330: R_3_Foot_IK
+    400332: R_3_Leg
+    400334: R_3_Leg_C
+    400336: R_3_Leg_C_
+    400338: R_3_Root_IK
+    400340: R_4_Foot_IK
+    400342: R_4_Leg
+    400344: R_4_Leg_C
+    400346: R_4_Leg_C_
+    400348: R_4_Root_IK
+    400350: R_5_Foot_IK
+    400352: R_5_Leg
+    400354: R_5_Leg_C
+    400356: R_5_Leg_C_
+    400358: R_5_Root_IK
+    400360: R_Leg
+    400362: //RootNode
+    400364: Spider
+    400366: tail
+    400368: top
+    400370: transform1
+    400372: transform2
+    400374: transform3
+    400376: transform4
+    400378: transform5
+    2100000: spider_palette1
+    2300000: body
+    2300002: head
+    2300004: leg_1
+    2300006: leg_1 1
+    2300008: leg_1 2
+    2300010: leg_1 3
+    2300012: leg_1 4
+    2300014: leg_1 5
+    2300016: leg_1 6
+    2300018: leg_1 7
+    2300020: leg_1 8
+    2300022: leg_1 9
+    2300024: leg_2
+    2300026: leg_2 1
+    2300028: leg_2 2
+    2300030: leg_2 3
+    2300032: leg_2 4
+    2300034: leg_2 5
+    2300036: leg_2 6
+    2300038: leg_2 7
+    2300040: leg_2 8
+    2300042: leg_2 9
+    2300044: leg_3
+    2300046: leg_3 1
+    2300048: leg_3 2
+    2300050: leg_3 3
+    2300052: leg_3 4
+    2300054: leg_3 5
+    2300056: leg_3 6
+    2300058: leg_3 7
+    2300060: leg_3 8
+    2300062: leg_3 9
+    2300064: leg_4
+    2300066: leg_4 1
+    2300068: leg_4 2
+    2300070: leg_4 3
+    2300072: leg_4 4
+    2300074: leg_4 5
+    2300076: leg_4 6
+    2300078: leg_4 7
+    2300080: leg_4 8
+    2300082: leg_4 9
+    2300084: leg_5
+    2300086: leg_5 1
+    2300088: leg_5 2
+    2300090: leg_5 3
+    2300092: leg_5 4
+    2300094: leg_5 5
+    2300096: leg_5 6
+    2300098: leg_5 7
+    3300000: body
+    3300002: head
+    3300004: leg_1
+    3300006: leg_1 1
+    3300008: leg_1 2
+    3300010: leg_1 3
+    3300012: leg_1 4
+    3300014: leg_1 5
+    3300016: leg_1 6
+    3300018: leg_1 7
+    3300020: leg_1 8
+    3300022: leg_1 9
+    3300024: leg_2
+    3300026: leg_2 1
+    3300028: leg_2 2
+    3300030: leg_2 3
+    3300032: leg_2 4
+    3300034: leg_2 5
+    3300036: leg_2 6
+    3300038: leg_2 7
+    3300040: leg_2 8
+    3300042: leg_2 9
+    3300044: leg_3
+    3300046: leg_3 1
+    3300048: leg_3 2
+    3300050: leg_3 3
+    3300052: leg_3 4
+    3300054: leg_3 5
+    3300056: leg_3 6
+    3300058: leg_3 7
+    3300060: leg_3 8
+    3300062: leg_3 9
+    3300064: leg_4
+    3300066: leg_4 1
+    3300068: leg_4 2
+    3300070: leg_4 3
+    3300072: leg_4 4
+    3300074: leg_4 5
+    3300076: leg_4 6
+    3300078: leg_4 7
+    3300080: leg_4 8
+    3300082: leg_4 9
+    3300084: leg_5
+    3300086: leg_5 1
+    3300088: leg_5 2
+    3300090: leg_5 3
+    3300092: leg_5 4
+    3300094: leg_5 5
+    3300096: leg_5 6
+    3300098: leg_5 7
+    4300000: body
+    4300002: head
+    4300004: leg_1
+    4300006: leg_2
+    4300008: leg_3
+    4300010: leg_4
+    4300012: leg_1
+    4300014: leg_2
+    4300016: leg_3
+    4300018: leg_4
+    4300020: leg_5
+    4300022: leg_1
+    4300024: leg_2
+    4300026: leg_3
+    4300028: leg_4
+    4300030: leg_5
+    4300032: leg_1
+    4300034: leg_2
+    4300036: leg_3
+    4300038: leg_4
+    4300040: leg_5
+    4300042: leg_1
+    4300044: leg_2
+    4300046: leg_3
+    4300048: leg_4
+    4300050: leg_5
+    4300052: leg_1
+    4300054: leg_2
+    4300056: leg_3
+    4300058: leg_4
+    4300060: leg_1
+    4300062: leg_2
+    4300064: leg_3
+    4300066: leg_4
+    4300068: leg_5
+    4300070: leg_1
+    4300072: leg_2
+    4300074: leg_3
+    4300076: leg_4
+    4300078: leg_5
+    4300080: leg_1
+    4300082: leg_2
+    4300084: leg_3
+    4300086: leg_4
+    4300088: leg_5
+    4300090: leg_1
+    4300092: leg_2
+    4300094: leg_3
+    4300096: leg_4
+    4300098: leg_5
+    7400000: idle
+    7400002: walk
+    7400004: atc_1
+    7400006: atc_2
+    7400008: die
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: idle
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 23
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: walk
+      takeName: Take 001
+      firstFrame: 26
+      lastFrame: 49
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: atc_1
+      takeName: Take 001
+      firstFrame: 52
+      lastFrame: 77
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: atc_2
+      takeName: Take 001
+      firstFrame: 77
+      lastFrame: 124
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: die
+      takeName: Take 001
+      firstFrame: 126
+      lastFrame: 137
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 6
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
